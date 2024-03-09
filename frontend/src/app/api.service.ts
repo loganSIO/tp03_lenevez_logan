@@ -10,8 +10,9 @@ import { env } from './env/env';
 @Injectable()
 export class ApiService {
 
-  constructor(private http:HttpClient) { }
-    getProducts () : Observable<Product[]> {
-        return this.http.get<Product[]>(env.backendProducts);
-    }
+  constructor(private http:HttpClient) {}
+
+  getProducts(): Observable<Product[]> {
+    return this.http.get<Product[]>(env.backendProducts);
+  }
 }

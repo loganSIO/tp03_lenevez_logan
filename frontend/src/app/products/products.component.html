@@ -1,9 +1,14 @@
 <p>products works!</p>
 
+<form [formGroup]="searchForm">
+  <input type="text" formControlName="searchQuery" placeholder="Search...">
+</form>
+
 @for (product of products | async; track product.title) {
   <li>
     {{ product.title }} -
     {{ product.artist }} -
-    {{ product.editor }}
+    {{ product.editor }} -
+    {{ product.price }}
   </li>
 }
