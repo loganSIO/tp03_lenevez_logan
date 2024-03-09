@@ -1,10 +1,19 @@
 <p>products works!</p>
 
-<form [formGroup]="searchForm">
-  <input type="text" formControlName="searchQuery" placeholder="Search...">
-</form>
+<div>
+  <form [formGroup]="searchForm">
+    <input type="text" formControlName="searchQuery" placeholder="Search...">
 
-@for (product of products | async; track product.title) {
+    <select formControlName="editor">
+      <option value="">-Editors-</option>
+      @for (editor of editors | async; track editor) {
+        <option>{{ editor }}</option>
+      }
+    </select>
+  </form>
+</div>
+
+@for (product of products | async; track product) {
   <li>
     {{ product.title }} -
     {{ product.artist }} -

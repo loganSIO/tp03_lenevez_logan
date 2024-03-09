@@ -15,4 +15,8 @@ export class ApiService {
   getProducts(): Observable<Product[]> {
     return this.http.get<Product[]>(env.backendProducts);
   }
+
+  getEditors(): Observable<string[]> {
+    return this.http.get<string[]>(env.backendEditors);
+  }
 }
