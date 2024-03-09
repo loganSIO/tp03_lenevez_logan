@@ -10,6 +10,7 @@ import { FormBuilder, ReactiveFormsModule } from '@angular/forms';
   standalone: true,
   imports: [CommonModule, ReactiveFormsModule],
   templateUrl: './products.component.html',
+  styleUrls: ['./products.component.css'],
   providers: [ApiService]
 })
 
