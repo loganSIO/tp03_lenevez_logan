@@ -1,12 +1,12 @@
 [
-  {"title":"One Piece","artist":"Eichiiro Oda","Editor":"Glénat"},
-  {"title":"Naruto","artist":"Masashi Kishimoto","Editor":"Shueisha"},
-  {"title":"Attack on Titan","artist":"Hajime Isayama","Editor":"Kodansha"},
-  {"title":"Dragon Ball","artist":"Akira Toriyama","Editor":"Shueisha"},
-  {"title":"Death Note","artist":"Tsugumi Ohba","Editor":"Shueisha"},
-  {"title":"Bleach","artist":"Tite Kubo","Editor":"Shueisha"},
-  {"title":"My Hero Academia","artist":"Kohei Horikoshi","Editor":"Shueisha"},
-  {"title":"Fullmetal Alchemist","artist":"Hiromu Arakawa","Editor":"Square Enix"},
-  {"title":"Fairy Tail","artist":"Hiro Mashima","Editor":"Kodansha"},
-  {"title":"Hunter x Hunter","artist":"Yoshihiro Togashi","Editor":"Shueisha"}
+  {"title":"One Piece","artist":"Eichiiro Oda","editor":"Glénat"},
+  {"title":"Naruto","artist":"Masashi Kishimoto","editor":"Shueisha"},
+  {"title":"Attack on Titan","artist":"Hajime Isayama","editor":"Kodansha"},
+  {"title":"Dragon Ball","artist":"Akira Toriyama","editor":"Shueisha"},
+  {"title":"Death Note","artist":"Tsugumi Ohba","editor":"Shueisha"},
+  {"title":"Bleach","artist":"Tite Kubo","editor":"Shueisha"},
+  {"title":"My Hero Academia","artist":"Kohei Horikoshi","editor":"Shueisha"},
+  {"title":"Fullmetal Alchemist","artist":"Hiromu Arakawa","editor":"Square Enix"},
+  {"title":"Fairy Tail","artist":"Hiro Mashima","editor":"Kodansha"},
+  {"title":"Hunter x Hunter","artist":"Yoshihiro Togashi","editor":"Shueisha"}
 ]

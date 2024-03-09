@@ -11,7 +11,7 @@ import { env } from './env/env';
 export class ApiService {
 
   constructor(private http:HttpClient) { }
-    public getProducts () : Observable<Product[]> {
+    getProducts () : Observable<Product[]> {
         return this.http.get<Product[]>(env.backendProducts);
     }
 }

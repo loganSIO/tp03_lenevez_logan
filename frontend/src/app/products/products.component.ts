@@ -1,23 +1,22 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { Observable } from 'rxjs';
 import { ApiService } from '../api.service';
 import { Product } from '../models/products';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-products',
   standalone: true,
-  imports: [],
+  imports: [CommonModule],
   templateUrl: './products.component.html',
-  styleUrl: './products.component.css',
+  providers: [ApiService]
 })
+
 export class ProductsComponent {
 
-  products: Observable<Product[]> | undefined;
+  products: Observable<Product[]>;
 
-  constructor(private apiService: ApiService) { }
-
-  ngOnInit() {
-    this.products = this.apiService.getProducts();
+  constructor(private api: ApiService) {
+    this.products = this.api.getProducts();
   }
-
 }

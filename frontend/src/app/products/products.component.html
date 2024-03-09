@@ -1,1 +1,9 @@
 <p>products works!</p>
+
+@for (product of products | async; track product.title) {
+  <li>
+    {{ product.title }} -
+    {{ product.artist }} -
+    {{ product.editor }}
+  </li>
+}
